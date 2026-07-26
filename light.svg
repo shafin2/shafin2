@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" fill="none" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Shafin Zaman — Full-Stack AI Engineer">
+  <defs>
+    <linearGradient id="acc-light" x1="0" y1="0" x2="1" y2="1" spreadMethod="reflect">
+      <stop offset="0" stop-color="#d6453d"/><stop offset="0.5" stop-color="#e08a2b"/><stop offset="1" stop-color="#1f9e85"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.35 0;0.35 0;-0.35 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="border-light" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6453d" stop-opacity="0"/><stop offset="0.5" stop-color="#e08a2b" stop-opacity="0.9"/><stop offset="1" stop-color="#1f9e85" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glowA-light" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d6453d" stop-opacity="0.5"/><stop offset="1" stop-color="#d6453d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB-light" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#1f9e85" stop-opacity="0.45"/><stop offset="1" stop-color="#1f9e85" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowC-light" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e08a2b" stop-opacity="0.35"/><stop offset="1" stop-color="#e08a2b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass-light" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(255,255,255,0.65)"/><stop offset="0.4" stop-color="rgba(255,255,255,0.65)" stop-opacity="0"/></linearGradient>
+    <linearGradient id="scan-light" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f9e85" stop-opacity="0"/><stop offset="0.5" stop-color="#1f9e85" stop-opacity="0.10"/><stop offset="1" stop-color="#1f9e85" stop-opacity="0"/></linearGradient>
+    <filter id="soft-light" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="shadow-light" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity="0.14"/></filter>
+    <filter id="noise-light"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <clipPath id="frame-light"><rect x="0" y="0" width="1180" height="610" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame-light)">
+    <rect width="1180" height="610" fill="#ffffff"/>
+    <rect width="1180" height="610" fill="#f5f4f1" opacity="0.5"/>
+    <!-- background floating glows -->
+    <g filter="url(#soft-light)">
+      <ellipse cx="220" cy="140" rx="260" ry="220" fill="url(#glowA-light)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;40 30;0 0" dur="16s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="1000" cy="520" rx="300" ry="240" fill="url(#glowB-light)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-50 -30;0 0" dur="19s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="620" cy="80" rx="260" ry="200" fill="url(#glowC-light)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;20 40;0 0" dur="22s" repeatCount="indefinite"/></ellipse>
+    </g>
+    <!-- noise texture -->
+    <rect width="1180" height="610" filter="url(#noise-light)" opacity="0.03"/>
+    <!-- particles -->
+    <circle cx="94" cy="120" r="1.4" fill="#d6453d" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="6s" begin="0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="6s" begin="0s" repeatCount="indefinite"/>
+    </circle><circle cx="204" cy="90" r="1.9" fill="#1f9e85" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="9s" begin="0.7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="9s" begin="0.7s" repeatCount="indefinite"/>
+    </circle><circle cx="144" cy="380" r="2.4" fill="#d6453d" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+    </circle><circle cx="354" cy="300" r="1.4" fill="#1f9e85" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="10s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="10s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    </circle><circle cx="114" cy="470" r="1.9" fill="#d6453d" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="8s" begin="2.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="8s" begin="2.8s" repeatCount="indefinite"/>
+    </circle><circle cx="304" cy="160" r="2.4" fill="#1f9e85" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="11s" begin="3.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="11s" begin="3.5s" repeatCount="indefinite"/>
+    </circle><circle cx="224" cy="500" r="1.4" fill="#d6453d" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="7s" begin="4.199999999999999s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="7s" begin="4.199999999999999s" repeatCount="indefinite"/>
+    </circle><circle cx="64" cy="260" r="1.9" fill="#1f9e85" opacity="0.0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="9s" begin="4.8999999999999995s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="9s" begin="4.8999999999999995s" repeatCount="indefinite"/>
+    </circle>
+    <!-- scanline sweep -->
+    <rect x="0" width="1180" height="120" fill="url(#scan-light)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" values="0 -140;0 610;0 -140" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ===================== LEFT: ASCII panel ===================== -->
+    <g filter="url(#shadow-light)">
+      <rect x="24" y="24" width="430" height="562" rx="18" fill="#f5f4f1" fill-opacity="0.72" stroke="rgba(15,23,42,0.08)"/>
+    </g>
+    <rect x="24" y="24" width="430" height="562" rx="18" fill="url(#glass-light)"/>
+    <rect x="24" y="24" width="430" height="46" rx="18" fill="#ffffff" fill-opacity="0.5"/>
+    <circle cx="48" cy="47" r="5.5" fill="#d6453d"/><circle cx="68" cy="47" r="5.5" fill="#e08a2b"/><circle cx="88" cy="47" r="5.5" fill="#1f9e85"/>
+    <text x="430" y="51" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8a8d9f">portrait.sh —zsh </text>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 -3;0 3;0 -3" dur="6s" repeatCount="indefinite"/>
+      
+        <text x="239" y="196" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">        .:--==++==--:.        <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.25s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="213" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">     .-=*#%@@@@@@@%#*=-.       <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.33s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="230" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">   .=*%@@@@@@@@@@@@@@@%*=.     <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.41s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="247" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">  =#@@@@%#*++++++*#%@@@@#=     <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.49s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="264" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0"> =%@@#=:.          .:=#@@%=    <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.57s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="281" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">.#@@*.   .::::::::.   .*@@#.   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.65s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="298" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">=@@%.  .=+#%@@@@%#+=.  .%@@=   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.73s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="315" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">#@@=  .*@@@@@@@@@@@@*.  =@@#   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.81s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="332" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">%@@:  =@@@@@@@@@@@@@@=  :@@%   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.89s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="349" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">#@@=  .*@@@@@@@@@@@@*.  =@@#   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="0.97s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="366" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">=@@%.  .=+#%@@@@%#+=.  .%@@=   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="1.05s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="383" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">.#@@*.               .*@@#.   <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="1.13s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="400" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0"> =%@@#=:.          .:=#@@%=    <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="1.21s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="417" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">  =#@@@@%#*++++++*#%@@@@#=     <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="1.29s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="434" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">   .=*%@@@@@@@@@@@@@@@%*=.     <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="1.37s" dur="0.4s" fill="freeze"/></text>
+        <text x="239" y="451" text-anchor="middle" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="url(#acc-light)" opacity="0">     .-=*#%@@@@@@@%#*=-.       <animate attributeName="opacity" values="0;0.95" keyTimes="0;1" begin="1.45s" dur="0.4s" fill="freeze"/></text>
+    </g>
+    <text x="239" y="490" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8a8d9f">// shafin_zaman<tspan fill="#e08a2b">█</tspan><animate attributeName="opacity" values="1;0.15;1" dur="1.05s" repeatCount="indefinite"/></text>
+    <!-- ascii scanline -->
+    <g clip-path="url(#frame-light)"><rect x="24" width="430" height="40" fill="url(#scan-light)" opacity="0.6">
+      <animateTransform attributeName="transform" type="translate" values="0 40;0 560;0 40" dur="5s" repeatCount="indefinite"/></rect></g>
+
+    <!-- ===================== RIGHT: terminal panel ===================== -->
+    <g filter="url(#shadow-light)">
+      <rect x="474" y="24" width="682" height="562" rx="18" fill="#f5f4f1" fill-opacity="0.72" stroke="rgba(15,23,42,0.08)"/>
+    </g>
+    <rect x="474" y="24" width="682" height="562" rx="18" fill="url(#glass-light)"/>
+    <rect x="474" y="24" width="682" height="46" rx="18" fill="#ffffff" fill-opacity="0.5"/>
+    <circle cx="498" cy="47" r="5.5" fill="#d6453d"/><circle cx="518" cy="47" r="5.5" fill="#e08a2b"/><circle cx="538" cy="47" r="5.5" fill="#1f9e85"/>
+    <text x="815" y="51" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8a8d9f">shafin-zaman — bash</text>
+
+    <!-- greeting -->
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.6s" fill="freeze"/>
+      <text x="508" y="128" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" fill="#4a4e69">Hi <tspan font-size="18">👋</tspan> &#160;I&#39;m</text>
+      <text x="508" y="168" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="42" font-weight="800" fill="#1a1a2e" letter-spacing="-1">Shafin Zaman</text>
+    </g>
+
+    <!-- typing prompt -->
+    <text x="508" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" font-weight="700" fill="#1f9e85">&gt;</text>
+    
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0781;0.2031;0.2500;1" dur="12.8s" repeatCount="indefinite"/>
+        <defs><clipPath id="clip-light-0"><rect x="526" y="176" height="28" width="0">
+          <animate attributeName="width" values="0;0;228.8;228.8;0;0" keyTimes="0;0.0000;0.0781;0.2031;0.2500;1" dur="12.8s" repeatCount="indefinite"/>
+        </rect></clipPath></defs>
+        <text x="526" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" font-weight="700" fill="url(#acc-light)" clip-path="url(#clip-light-0)">Full-Stack AI Engineer</text>
+        <rect y="178" width="11" height="23" rx="1.5" fill="#e08a2b" x="526">
+          <animate attributeName="x" values="526;526;754.8;754.8;526;526" keyTimes="0;0.0000;0.0781;0.2031;0.2500;1" dur="12.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;1;0.2;1;1" keyTimes="0;0.02;0.5;0.55;0.9;1" dur="0.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2500;0.3281;0.4531;0.5000;1" dur="12.8s" repeatCount="indefinite"/>
+        <defs><clipPath id="clip-light-1"><rect x="526" y="176" height="28" width="0">
+          <animate attributeName="width" values="0;0;301.6;301.6;0;0" keyTimes="0;0.2500;0.3281;0.4531;0.5000;1" dur="12.8s" repeatCount="indefinite"/>
+        </rect></clipPath></defs>
+        <text x="526" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" font-weight="700" fill="url(#acc-light)" clip-path="url(#clip-light-1)">Email Deliverability Engineer</text>
+        <rect y="178" width="11" height="23" rx="1.5" fill="#e08a2b" x="526">
+          <animate attributeName="x" values="526;526;827.6;827.6;526;526" keyTimes="0;0.2500;0.3281;0.4531;0.5000;1" dur="12.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;1;0.2;1;1" keyTimes="0;0.02;0.5;0.55;0.9;1" dur="0.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5000;0.5781;0.7031;0.7500;1" dur="12.8s" repeatCount="indefinite"/>
+        <defs><clipPath id="clip-light-2"><rect x="526" y="176" height="28" width="0">
+          <animate attributeName="width" values="0;0;208;208;0;0" keyTimes="0;0.5000;0.5781;0.7031;0.7500;1" dur="12.8s" repeatCount="indefinite"/>
+        </rect></clipPath></defs>
+        <text x="526" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" font-weight="700" fill="url(#acc-light)" clip-path="url(#clip-light-2)">AI / Agent Developer</text>
+        <rect y="178" width="11" height="23" rx="1.5" fill="#e08a2b" x="526">
+          <animate attributeName="x" values="526;526;734;734;526;526" keyTimes="0;0.5000;0.5781;0.7031;0.7500;1" dur="12.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;1;0.2;1;1" keyTimes="0;0.02;0.5;0.55;0.9;1" dur="0.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7500;0.8281;0.9531;1.0000;1" dur="12.8s" repeatCount="indefinite"/>
+        <defs><clipPath id="clip-light-3"><rect x="526" y="176" height="28" width="0">
+          <animate attributeName="width" values="0;0;270.40000000000003;270.40000000000003;0;0" keyTimes="0;0.7500;0.8281;0.9531;1.0000;1" dur="12.8s" repeatCount="indefinite"/>
+        </rect></clipPath></defs>
+        <text x="526" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" font-weight="700" fill="url(#acc-light)" clip-path="url(#clip-light-3)">Ships whole products, solo</text>
+        <rect y="178" width="11" height="23" rx="1.5" fill="#e08a2b" x="526">
+          <animate attributeName="x" values="526;526;796.4000000000001;796.4000000000001;526;526" keyTimes="0;0.7500;0.8281;0.9531;1.0000;1" dur="12.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;1;0.2;1;1" keyTimes="0;0.02;0.5;0.55;0.9;1" dur="0.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+    <!-- divider -->
+    <line x1="508" y1="220" x2="1122" y2="220" stroke="rgba(15,23,42,0.08)"/>
+    <line x1="508" y1="220" x2="640" y2="220" stroke="url(#acc-light)" stroke-width="1.5"/>
+
+    
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.5s" fill="freeze"/>
+        <circle cx="514" cy="243" r="3" fill="url(#acc-light)"/>
+        <text x="530" y="248" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#8a8d9f">Location  </text>
+        <text x="632" y="248" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#4a4e69">Lahore, Pakistan</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.42s" dur="0.5s" fill="freeze"/>
+        <circle cx="514" cy="276" r="3" fill="url(#acc-light)"/>
+        <text x="530" y="281" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#8a8d9f">Education </text>
+        <text x="632" y="281" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#4a4e69">B.S. Computer Science — COMSATS (CGPA 3.81)</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.64s" dur="0.5s" fill="freeze"/>
+        <circle cx="514" cy="309" r="3" fill="url(#acc-light)"/>
+        <text x="530" y="314" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#8a8d9f">Focus     </text>
+        <text x="632" y="314" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#4a4e69">Email infra · RAG · MCP · LangGraph</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.86s" dur="0.5s" fill="freeze"/>
+        <circle cx="514" cy="342" r="3" fill="url(#acc-light)"/>
+        <text x="530" y="347" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#8a8d9f">Portfolio </text>
+        <text x="632" y="347" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#4a4e69">shafinzaman.dev</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.08s" dur="0.5s" fill="freeze"/>
+        <circle cx="514" cy="375" r="3" fill="url(#acc-light)"/>
+        <text x="530" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#8a8d9f">Email     </text>
+        <text x="632" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" fill="#4a4e69">shafinzaman42@gmail.com</text>
+      </g>
+
+    <!-- skills label -->
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.5s" fill="freeze"/>
+      <text x="508" y="435" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8a8d9f" letter-spacing="2">STACK</text>
+      <line x1="562" y1="431" x2="1122" y2="431" stroke="rgba(15,23,42,0.08)"/>
+    </g>
+    
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.40s" dur="0.45s" fill="freeze"/>
+        <rect x="508" y="452" width="103.0" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="508" y="452" width="103.0" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="0.00s" repeatCount="indefinite"/>
+        </rect>
+        <text x="559.5" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">TypeScript</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.47s" dur="0.45s" fill="freeze"/>
+        <rect x="621" y="452" width="78.7" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="621" y="452" width="78.7" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="0.18s" repeatCount="indefinite"/>
+        </rect>
+        <text x="660.35" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Next.js</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.54s" dur="0.45s" fill="freeze"/>
+        <rect x="709.7" y="452" width="62.5" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="709.7" y="452" width="62.5" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="0.36s" repeatCount="indefinite"/>
+        </rect>
+        <text x="740.95" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">React</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.61s" dur="0.45s" fill="freeze"/>
+        <rect x="782.2" y="452" width="78.7" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="782.2" y="452" width="78.7" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="0.54s" repeatCount="indefinite"/>
+        </rect>
+        <text x="821.5500000000001" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Node.js</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.68s" dur="0.45s" fill="freeze"/>
+        <rect x="870.9000000000001" y="452" width="78.7" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="870.9000000000001" y="452" width="78.7" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="0.72s" repeatCount="indefinite"/>
+        </rect>
+        <text x="910.2500000000001" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Nest.js</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.75s" dur="0.45s" fill="freeze"/>
+        <rect x="959.6000000000001" y="452" width="62.5" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="959.6000000000001" y="452" width="62.5" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="0.90s" repeatCount="indefinite"/>
+        </rect>
+        <text x="990.8500000000001" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Rails</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.82s" dur="0.45s" fill="freeze"/>
+        <rect x="1032.1000000000001" y="452" width="70.6" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="1032.1000000000001" y="452" width="70.6" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="1.08s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1067.4" y="472" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Python</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.89s" dur="0.45s" fill="freeze"/>
+        <rect x="508" y="494" width="78.7" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="508" y="494" width="78.7" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="1.26s" repeatCount="indefinite"/>
+        </rect>
+        <text x="547.35" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">FastAPI</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.96s" dur="0.45s" fill="freeze"/>
+        <rect x="596.7" y="494" width="103.0" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="596.7" y="494" width="103.0" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="1.44s" repeatCount="indefinite"/>
+        </rect>
+        <text x="648.2" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">PostgreSQL</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.03s" dur="0.45s" fill="freeze"/>
+        <rect x="709.7" y="494" width="78.7" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="709.7" y="494" width="78.7" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="1.62s" repeatCount="indefinite"/>
+        </rect>
+        <text x="749.0500000000001" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">MongoDB</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.10s" dur="0.45s" fill="freeze"/>
+        <rect x="798.4000000000001" y="494" width="62.5" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="798.4000000000001" y="494" width="62.5" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="1.80s" repeatCount="indefinite"/>
+        </rect>
+        <text x="829.6500000000001" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Redis</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.17s" dur="0.45s" fill="freeze"/>
+        <rect x="870.9000000000001" y="494" width="70.6" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="870.9000000000001" y="494" width="70.6" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="1.98s" repeatCount="indefinite"/>
+        </rect>
+        <text x="906.2" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">Docker</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.24s" dur="0.45s" fill="freeze"/>
+        <rect x="951.5000000000001" y="494" width="46.3" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="951.5000000000001" y="494" width="46.3" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="2.16s" repeatCount="indefinite"/>
+        </rect>
+        <text x="974.6500000000001" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">AWS</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.31s" dur="0.45s" fill="freeze"/>
+        <rect x="1007.8000000000001" y="494" width="94.9" height="30" rx="15" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <rect x="1007.8000000000001" y="494" width="94.9" height="30" rx="15" fill="none" stroke="url(#acc-light)" stroke-width="1" opacity="0.0">
+          <animate attributeName="opacity" values="0;0.45;0" dur="3.6s" begin="2.34s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1055.25" y="514" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#1a1a2e">LangGraph</text>
+      </g>
+
+    
+      <g transform="translate(508,556)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.6s" fill="freeze"/>
+        <rect x="-3" y="-18" width="26" height="26" rx="8" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <g fill="none" stroke="url(#acc-light)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" transform="translate(1,-16) scale(0.75)"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.2-1.5 6.2-6.7A5.2 5.2 0 0 0 20 4.8 4.9 4.9 0 0 0 19.9 1S18.7.6 16 2.5a13 13 0 0 0-7 0C6.3.6 5.1 1 5.1 1A4.9 4.9 0 0 0 5 4.8 5.2 5.2 0 0 0 3.7 8.4c0 5.2 3.2 6.4 6.2 6.7a3.4 3.4 0 0 0-.9 2.6V22"/></g>
+        <text x="34" y="0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#1a1a2e">github.com/shafin2</text>
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -2;0 0" dur="4s" begin="0.8999999999999999s" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(748,556)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.6s" fill="freeze"/>
+        <rect x="-3" y="-18" width="26" height="26" rx="8" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <g fill="none" stroke="url(#acc-light)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" transform="translate(1,-16) scale(0.75)"><path d="M4 4h16v16H4z"/><path d="M8 11v6M8 8v.01M12 17v-4a2 2 0 0 1 4 0v4"/></g>
+        <text x="34" y="0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#1a1a2e">in/shafin-zaman</text>
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -2;0 0" dur="4s" begin="0.8999999999999999s" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(968,556)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.6s" fill="freeze"/>
+        <rect x="-3" y="-18" width="26" height="26" rx="8" fill="rgba(214,69,61,0.07)" stroke="rgba(214,69,61,0.28)" stroke-width="1"/>
+        <g fill="none" stroke="url(#acc-light)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" transform="translate(1,-16) scale(0.75)"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></g>
+        <text x="34" y="0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#1a1a2e">shafinzaman.dev</text>
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -2;0 0" dur="4s" begin="0.8999999999999999s" repeatCount="indefinite"/>
+      </g>
+
+    <!-- animated frame border shimmer -->
+    <rect x="1.5" y="1.5" width="1177" height="607" rx="25" fill="none" stroke="#e6e5e0" stroke-width="1"/>
+    <rect x="1.5" y="1.5" width="1177" height="607" rx="25" fill="none" stroke="url(#border-light)" stroke-width="2"/>
+  </g>
+</svg>
