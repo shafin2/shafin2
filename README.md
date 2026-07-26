@@ -1,8 +1,14 @@
 <!--
   Shafin Zaman — GitHub profile README.
-  Put this file, dark.svg and light.svg in a repo named exactly  shafin2  (a repo whose name
-  matches your username renders its README on your profile page). The <picture> below shows
-  dark.svg on GitHub's dark theme and light.svg on light theme automatically.
+  Repo must be named exactly  shafin2  (matching the username) so it renders on the profile.
+  The <picture> shows dark.svg in GitHub dark theme, light.svg in light theme.
+
+  The GitHub stat cards below are SELF-HOSTED on shafinzaman.dev (see app/api/gh in the
+  portfolio repo) — the public github-readme-stats service is chronically down (503), so this
+  is reliable and themed. They only render once the portfolio is deployed with that route.
+
+  "Update once, updates everywhere": the résumé link and stat cards point at shafinzaman.dev,
+  so updating the PDF / your GitHub activity updates here automatically. No re-upload needed.
 -->
 
 <div align="center">
@@ -13,12 +19,15 @@
   <img alt="Shafin Zaman — Full-Stack AI Engineer" src="./dark.svg" width="100%">
 </picture>
 
-<br/>
+<br/><br/>
 
-<a href="https://shafinzaman.dev"><img src="https://img.shields.io/badge/Portfolio-shafinzaman.dev-f25c54?style=for-the-badge&labelColor=0f1840" alt="Portfolio"></a>
-<a href="https://meetings-na2.hubspot.com/shafin-zaman"><img src="https://img.shields.io/badge/Book_a_discovery_call-2ec4b6?style=for-the-badge&labelColor=0f1840" alt="Book a call"></a>
-<a href="https://linkedin.com/in/shafin-zaman"><img src="https://img.shields.io/badge/LinkedIn-shafin--zaman-f9a03f?style=for-the-badge&labelColor=0f1840" alt="LinkedIn"></a>
-<a href="mailto:shafinzaman42@gmail.com"><img src="https://img.shields.io/badge/Email-shafinzaman42-f25c54?style=for-the-badge&labelColor=0f1840" alt="Email"></a>
+<a href="https://shafinzaman.dev"><img src="https://img.shields.io/badge/Portfolio-shafinzaman.dev-f25c54?style=for-the-badge&labelColor=0f1840&logo=vercel&logoColor=white" alt="Portfolio"></a>
+<a href="https://meetings-na2.hubspot.com/shafin-zaman"><img src="https://img.shields.io/badge/Book_a_discovery_call-2ec4b6?style=for-the-badge&labelColor=0f1840&logo=googlemeet&logoColor=white" alt="Book a call"></a>
+<a href="https://shafinzaman.dev/shafin-uz-zaman-resume.pdf"><img src="https://img.shields.io/badge/Résumé-Download-f9a03f?style=for-the-badge&labelColor=0f1840&logo=readthedocs&logoColor=white" alt="Download résumé"></a>
+<br/>
+<a href="https://linkedin.com/in/shafin-zaman"><img src="https://img.shields.io/badge/LinkedIn-shafin--zaman-0A66C2?style=for-the-badge&labelColor=0f1840&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:shafinzaman42@gmail.com"><img src="https://img.shields.io/badge/Email-shafinzaman42-f25c54?style=for-the-badge&labelColor=0f1840&logo=gmail&logoColor=white" alt="Email"></a>
+<img src="https://komarev.com/ghpvc/?username=shafin2&label=Profile%20views&color=0f1840&style=for-the-badge" alt="Profile views">
 
 </div>
 
@@ -31,10 +40,10 @@ from the first commit to production. I'm drawn to the hard, unglamorous parts: *
 deliverability infrastructure**, the plumbing **AI agents** actually run on, and the
 reliability work that makes a product usable instead of just a demo. **Available for freelance.**
 
-- 🛰️  **Email infra** — deliverability (DMARC/DKIM/SPF), warmup & cold-email SaaS, sending microservices
-- 🤖  **AI / agents** — RAG, LangGraph, **MCP** servers, vector search, grounded assistants
-- 🧩  **Full-stack** — Next.js · Node/Nest · Rails · FastAPI · Postgres · MongoDB · AWS
-- 🎓  B.S. Computer Science, **COMSATS** (CGPA 3.81, Silver Medalist)
+- 🛰️ &nbsp;**Email infra** — deliverability (DMARC/DKIM/SPF), warmup & cold-email SaaS, sending microservices
+- 🤖 &nbsp;**AI / agents** — RAG, LangGraph, **MCP** servers, vector search, grounded assistants
+- 🧩 &nbsp;**Full-stack** — Next.js · Node/Nest · Rails · FastAPI · Postgres · MongoDB · AWS
+- 🎓 &nbsp;B.S. Computer Science, **COMSATS** (CGPA 3.81, Silver Medalist)
 
 ### 🧠 What I'm building
 
@@ -42,15 +51,21 @@ My portfolio itself is an **AI-native site**: an assistant, grounded (RAG) in my
 projects, *drives* the page — and it doubles as an **MCP server** you can add to Claude or
 Cursor to query my work from your own tools.
 
-→ **[shafinzaman.dev](https://shafinzaman.dev)**  ·  `mcp: https://shafinzaman.dev/mcp`
+→ **[shafinzaman.dev](https://shafinzaman.dev)** &nbsp;·&nbsp; `mcp: https://shafinzaman.dev/mcp`
 
 ### 📊 GitHub
 
 <div align="center">
 
-<!-- Cards pull live data from GitHub; delete this block anytime if you'd rather keep it minimal. -->
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=shafin2&show_icons=true&hide_border=true&title_color=f25c54&icon_color=2ec4b6&text_color=9aa0c0&bg_color=0f1840" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafin2&layout=compact&hide_border=true&title_color=f25c54&text_color=9aa0c0&bg_color=0f1840" alt="Top languages"/>
+<img src="https://shafinzaman.dev/api/gh?type=stats" alt="Shafin Zaman's GitHub stats" height="200"/>
+&nbsp;
+<img src="https://shafinzaman.dev/api/gh?type=langs" alt="Most used languages" height="200"/>
+
+<br/><br/>
+
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=shafin2&hide_border=true&background=0f1840&border=263159&stroke=263159&ring=f25c54&fire=f25c54&currStreakNum=f5f4f1&currStreakLabel=f25c54&sideNums=f5f4f1&sideLabels=9aa0c0&dates=8b93b8&excludeDaysLabel=8b93b8" alt="GitHub streak" height="180"/></a>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shafin2&bg_color=0f1840&color=f5f4f1&line=f25c54&point=2ec4b6&area_color=f25c54&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution graph" width="98%"/>
 
 </div>
 
