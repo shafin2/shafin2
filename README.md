@@ -23,7 +23,7 @@
 
 <a href="https://shafinzaman.dev"><img src="https://img.shields.io/badge/Portfolio-shafinzaman.dev-f25c54?style=for-the-badge&labelColor=0f1840&logo=vercel&logoColor=white" alt="Portfolio"></a>
 <a href="https://meetings-na2.hubspot.com/shafin-zaman"><img src="https://img.shields.io/badge/Book_a_discovery_call-2ec4b6?style=for-the-badge&labelColor=0f1840&logo=googlemeet&logoColor=white" alt="Book a call"></a>
-<a href="https://shafinzaman.dev/shafin-uz-zaman-resume.pdf"><img src="https://img.shields.io/badge/Résumé-Download-f9a03f?style=for-the-badge&labelColor=0f1840&logo=readthedocs&logoColor=white" alt="Download résumé"></a>
+<a href="https://www.shafinzaman.dev/shafin-uz-zaman-resume.pdf"><img src="https://img.shields.io/badge/Résumé-Download-f9a03f?style=for-the-badge&labelColor=0f1840&logo=readthedocs&logoColor=white" alt="Download résumé"></a>
 <br/>
 <a href="https://linkedin.com/in/shafin-zaman"><img src="https://img.shields.io/badge/LinkedIn-shafin--zaman-0A66C2?style=for-the-badge&labelColor=0f1840&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:shafinzaman42@gmail.com"><img src="https://img.shields.io/badge/Email-shafinzaman42-f25c54?style=for-the-badge&labelColor=0f1840&logo=gmail&logoColor=white" alt="Email"></a>
@@ -57,9 +57,9 @@ Cursor to query my work from your own tools.
 
 <div align="center">
 
-<img src="https://shafinzaman.dev/api/gh?type=stats" alt="Shafin Zaman's GitHub stats" height="200"/>
+<img src="https://www.shafinzaman.dev/api/gh?type=stats" alt="Shafin Zaman's GitHub stats" height="200"/>
 &nbsp;
-<img src="https://shafinzaman.dev/api/gh?type=langs" alt="Most used languages" height="200"/>
+<img src="https://www.shafinzaman.dev/api/gh?type=langs" alt="Most used languages" height="200"/>
 
 <br/><br/>
 
