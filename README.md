@@ -63,7 +63,7 @@ Cursor to query my work from your own tools.
 
 <br/><br/>
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=shafin2&hide_border=true&background=0f1840&border=263159&stroke=263159&ring=f25c54&fire=f25c54&currStreakNum=f5f4f1&currStreakLabel=f25c54&sideNums=f5f4f1&sideLabels=9aa0c0&dates=8b93b8&excludeDaysLabel=8b93b8" alt="GitHub streak" height="180"/></a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Shafin2&hide_border=true&background=0f1840&border=263159&stroke=263159&ring=f25c54&fire=f25c54&currStreakNum=f5f4f1&currStreakLabel=f25c54&sideNums=f5f4f1&sideLabels=9aa0c0&dates=8b93b8&excludeDaysLabel=8b93b8" alt="GitHub streak" height="180"/></a>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shafin2&bg_color=0f1840&color=f5f4f1&line=f25c54&point=2ec4b6&area_color=f25c54&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution graph" width="98%"/>
 
